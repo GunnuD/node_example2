@@ -9,7 +9,7 @@ apps:
       PORT: 3000
     env_staging:
       NODE_ENV: staging
-      PORT: 12345
+      PORT: 81
     env_production:
       NODE_ENV: production
-      PORT: 12345
+      PORT: 80
