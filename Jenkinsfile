@@ -25,7 +25,7 @@ pipeline {
       environment {
         //the following needs to be set to not kill the node process
         JENKINS_NODE_COOKIE='dontkill'
-        PASSWORD="PRODUCTION"
+        PASSWORD=credentials("example_password_production")
       }
       steps {
         sh "npm install"
