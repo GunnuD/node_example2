@@ -16,7 +16,9 @@ pipeline {
     }
 
     stage('production') {
-      agent label 'node_example2-production'
+      agent {
+        label 'node_example2-production'
+      }
       when {
         branch 'master'
       }
