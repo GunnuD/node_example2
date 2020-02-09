@@ -1,0 +1,22 @@
+{
+  "name": "node_example",
+  "version": "1.0.0",
+  "description": "a test package for the deploy workflow",
+  "main": "server.js",
+  "dependencies": {
+    "pm2": "^4.1.2"
+  },
+  "scripts": {
+    "start": "pm2 startOrRestart ecosystem.config.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loeken/node_example.git"
+  },
+  "author": "author",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loeken/node_example/issues"
+  },
+  "homepage": "https://github.com/loeken/node_example#readme"
+}
